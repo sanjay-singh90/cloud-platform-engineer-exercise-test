@@ -13,7 +13,7 @@ This repository serves as a guide for deploying a basic Flask application on Ama
 
 ### Infrastructure Setup
 
-The infrastructure is automatically using Terraform as the Infrastructure as Code (IaC) tool, managed by the GitHub Actions workflow (deploy-cluster.yaml). This workflow orchestrates the creation of essential components, including Amazon Elastic Kubernetes Service (EKS), Amazon Elastic Container Registry (ECR), Amazon Simple Storage Service (S3), and the Application Load Balancer (ALB) controller.
+The infrastructure is provisioned using Terraform as the Infrastructure as Code (IaC) tool, managed by the GitHub Actions workflow (deploy-cluster.yaml). This workflow orchestrates the creation of essential components, including Amazon Elastic Kubernetes Service (EKS), Amazon Elastic Container Registry (ECR), Amazon Simple Storage Service (S3), and the Application Load Balancer (ALB) controller.
 
 ### Application Code and Container Image
 
