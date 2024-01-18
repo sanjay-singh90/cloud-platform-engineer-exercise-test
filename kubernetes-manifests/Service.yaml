@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: sample-app-service
+  namespace: sample-app
+spec:
+  selector:
+    app: sample-app
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+      nodePort: 30957
+  type: NodePort
